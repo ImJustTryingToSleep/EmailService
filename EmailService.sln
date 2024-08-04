@@ -9,7 +9,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{C791A5
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BLL", "BLL", "{BF4EB2B7-202D-4227-9C42-EEAA7A87A755}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmailService.Contracts", "EmailService.Contracts\EmailService.Contracts.csproj", "{6E537257-B46A-44BE-9FF8-F68966DE5EC6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmailService.Entities", "EmailService.Contracts\EmailService.Entities.csproj", "{6E537257-B46A-44BE-9FF8-F68966DE5EC6}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmailService.BLL.Logic", "EmailService.BLL.Logic\EmailService.BLL.Logic.csproj", "{79F47C2F-EF49-4C29-9D9B-ACC01F9C31FD}"
 EndProject

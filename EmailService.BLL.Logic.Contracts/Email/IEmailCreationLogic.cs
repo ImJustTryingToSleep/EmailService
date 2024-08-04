@@ -1,4 +1,4 @@
-﻿using EmailService.Contracts;
+﻿using EmailService.Entities;
 using MimeKit;
 using System;
 using System.Collections.Generic;

@@ -13,7 +13,7 @@
   <ItemGroup>
     <ProjectReference Include="..\EmailService.BLL.Logic.Contracts\EmailService.BLL.Logic.Contracts.csproj" />
     <ProjectReference Include="..\EmailService.BLL.Logic\EmailService.BLL.Logic.csproj" />
-    <ProjectReference Include="..\EmailService.Contracts\EmailService.Contracts.csproj" />
+    <ProjectReference Include="..\EmailService.Contracts\EmailService.Entities.csproj" />
   </ItemGroup>
 
 </Project>

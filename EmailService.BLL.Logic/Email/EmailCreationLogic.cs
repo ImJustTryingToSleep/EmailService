@@ -1,5 +1,5 @@
 ﻿using EmailService.BLL.Logic.Contracts.Email;
-using EmailService.Contracts;
+using EmailService.Entities;
 using MailKit;
 using Microsoft.Extensions.Logging;
 using MimeKit;

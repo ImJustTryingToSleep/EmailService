@@ -1,5 +1,5 @@
 ﻿using EmailService.BLL.Logic.Contracts.Email;
-using EmailService.Contracts;
+using EmailService.Entities;
 using MimeKit;
 //using System.Net.Mail;
 using MailKit.Net.Smtp;
@@ -33,7 +33,7 @@ namespace EmailService.BLL.Logic.Email
                 using (var client = new SmtpClient())
                 {
                     client.Connect(host: _configuration["ConnectionToMailSettings:host"], 
-                        port: int.Parse(_configuration["ConnectionToMailSettings:Port"]), useSsl: true);
+                        port: int.Parse(_configuration["ConnectionToMailSettings:Port"]!), useSsl: true);
                     client.Authenticate(userName: _configuration["ConnectionToMailSettings:MailName"], password: _configuration["ConnectionToMailSettings:Password"]);
                     client.Send(messageToSend);
                     client.Disconnect(quit: true);

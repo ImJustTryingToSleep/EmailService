@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EmailService.Contracts
+namespace EmailService.Entities
 {
     public class EmailServiceMessage
     {

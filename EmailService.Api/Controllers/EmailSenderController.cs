@@ -1,4 +1,4 @@
-﻿using EmailService.Contracts;
+﻿using EmailService.Entities;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System.Net.Mail;
